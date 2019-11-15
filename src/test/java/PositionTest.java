@@ -1,3 +1,4 @@
+import Enums.Directions;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -39,5 +40,25 @@ class PositionTest {
         normalizedPosition.normalizePosition(height, width);
 
         Assertions.assertEquals(position, normalizedPosition);
+    }
+
+    @Test
+    public void forwardPosition() {
+
+        Position forwardNPosition = new Position(5, 5);
+        forwardNPosition.forward(Directions.N);
+        Assertions.assertEquals(new Position(5, 6), forwardNPosition);
+
+        Position forwardSPosition = new Position(5, 5);
+        forwardSPosition.forward(Directions.S);
+        Assertions.assertEquals(new Position(5, 4), forwardSPosition);
+
+        Position forwardWPosition = new Position(5, 5);
+        forwardWPosition.forward(Directions.W);
+        Assertions.assertEquals(new Position(4, 5), forwardWPosition);
+
+        Position forwardEPosition = new Position(5, 5);
+        forwardEPosition.forward(Directions.E);
+        Assertions.assertEquals(new Position(6, 5), forwardEPosition);
     }
 }

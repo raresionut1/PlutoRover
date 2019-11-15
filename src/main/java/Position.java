@@ -19,6 +19,25 @@ public class Position {
         y = y % maxHeight;
     }
 
+    void forward(Directions direction) {
+        switch (direction) {
+            case N:
+                y++;
+                break;
+            case S:
+                y--;
+                break;
+            case W:
+                x--;
+                break;
+            case E:
+                x++;
+                break;
+            default:
+                break;
+        }
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
