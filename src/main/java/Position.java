@@ -1,5 +1,7 @@
 import Enums.Directions;
 
+import java.util.Objects;
+
 public class Position {
     int x;
     int y;
@@ -45,5 +47,9 @@ public class Position {
         Position position = (Position) o;
         return x == position.x &&
                 y == position.y;
+    }
+
+    public int hashCode() {
+        return Objects.hash(x, y);
     }
 }

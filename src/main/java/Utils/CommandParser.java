@@ -13,6 +13,14 @@ public class CommandParser {
         return input != null && !input.equals("");
     }
 
+    public void clear() {
+        input = "";
+    }
+
+    public String getInput() {
+        return input;
+    }
+
     public Commands next() {
         if(!hasNext())
             return Commands.UNDEFINED;

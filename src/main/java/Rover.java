@@ -1,6 +1,8 @@
 import Enums.Commands;
 import Enums.Directions;
 
+import java.util.Objects;
+
 public class Rover {
     Position position;
     Directions dir;
@@ -37,5 +39,10 @@ public class Rover {
         Rover rover = (Rover) o;
         return position.equals(rover.position) &&
                 dir == rover.dir;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(position, dir);
     }
 }
