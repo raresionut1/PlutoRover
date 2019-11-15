@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7084890c-cb90-4f39-a40a-ced8290291c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enums/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PositionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Enums/DirectionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Enums/DirectionsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +43,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Enums/Commands.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Position.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PositionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,8 +78,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -71,6 +92,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Enums/Directions.java" />
         <option value="$PROJECT_DIR$/src/test/java/Enums/DirectionsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Enums/Commands.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Position.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PositionTest.java" />
       </list>
     </option>
   </component>
@@ -148,7 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573837253236" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573838386756" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -157,6 +180,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
       <recent name="Enums" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -175,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DirectionsTest.rotateDirectionsTest">
+  <component name="RunManager" selected="JUnit.PositionTest.normalizePositionWhenPositionIsNegative">
     <configuration name="DirectionsTest.oppositeDirectionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PlutoRover" />
       <extension name="coverage">
@@ -208,8 +232,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlutoRover" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PositionTest" />
+      <option name="METHOD_NAME" value="normalizePositionWhenPositionIsBiggerThanLimits" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositionTest.normalizePositionWhenPositionIsInTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlutoRover" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PositionTest" />
+      <option name="METHOD_NAME" value="normalizePositionWhenPositionIsInTable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositionTest.normalizePositionWhenPositionIsNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlutoRover" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PositionTest" />
+      <option name="METHOD_NAME" value="normalizePositionWhenPositionIsNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PositionTest.normalizePositionWhenPositionIsNegative" />
+        <item itemvalue="JUnit.PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" />
+        <item itemvalue="JUnit.PositionTest.normalizePositionWhenPositionIsInTable" />
         <item itemvalue="JUnit.DirectionsTest.rotateDirectionsTest" />
         <item itemvalue="JUnit.DirectionsTest.oppositeDirectionsTest" />
       </list>
@@ -229,14 +286,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DirectionsTest_oppositeDirectionsTest - 2019.11.15 at 18h 55m 45s.xml">
-      <configuration name="DirectionsTest.oppositeDirectionsTest" configurationId="JUnit" />
+    <history-entry file="PositionTest_normalizePositionWhenPositionIsBiggerThanLimits - 2019.11.15 at 19h 13m 59s.xml">
+      <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectionsTest_oppositeDirectionsTest - 2019.11.15 at 18h 56m 08s.xml">
-      <configuration name="DirectionsTest.oppositeDirectionsTest" configurationId="JUnit" />
+    <history-entry file="PositionTest_normalizePositionWhenPositionIsBiggerThanLimits - 2019.11.15 at 19h 15m 43s.xml">
+      <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectionsTest_rotateDirectionsTest - 2019.11.15 at 18h 59m 46s.xml">
-      <configuration name="DirectionsTest.rotateDirectionsTest" configurationId="JUnit" />
+    <history-entry file="PositionTest_normalizePositionWhenPositionIsBiggerThanLimits - 2019.11.15 at 19h 15m 49s.xml">
+      <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PositionTest_normalizePositionWhenPositionIsBiggerThanLimits - 2019.11.15 at 19h 16m 04s.xml">
+      <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PositionTest_normalizePositionWhenPositionIsBiggerThanLimits - 2019.11.15 at 19h 16m 20s.xml">
+      <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PositionTest_normalizePositionWhenPositionIsBiggerThanLimits - 2019.11.15 at 19h 16m 30s.xml">
+      <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PositionTest_normalizePositionWhenPositionIsBiggerThanLimits - 2019.11.15 at 19h 16m 44s.xml">
+      <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PositionTest_normalizePositionWhenPositionIsBiggerThanLimits - 2019.11.15 at 19h 17m 33s.xml">
+      <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PositionTest_normalizePositionWhenPositionIsNegative - 2019.11.15 at 19h 17m 39s.xml">
+      <configuration name="PositionTest.normalizePositionWhenPositionIsNegative" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PositionTest_normalizePositionWhenPositionIsNegative - 2019.11.15 at 19h 18m 38s.xml">
+      <configuration name="PositionTest.normalizePositionWhenPositionIsNegative" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -283,6 +361,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Enums/Commands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Enums/DirectionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -294,10 +379,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Enums/Commands.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PositionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
