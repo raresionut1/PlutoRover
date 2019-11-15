@@ -30,4 +30,39 @@ class DirectionsTest {
                     Directions.oppositeDirection(direction));
         }
     }
+
+    @Test
+    public void rotateDirectionsTest() {
+        for (Directions direction : Directions.values()) {
+            Directions rotateLeftDirection;
+            Directions rotateRightDirection;
+            switch (direction) {
+                case E:
+                    rotateLeftDirection = Directions.N;
+                    rotateRightDirection = Directions.S;
+                    break;
+                case W:
+                    rotateLeftDirection = Directions.S;
+                    rotateRightDirection = Directions.N;
+                    break;
+                case S:
+                    rotateLeftDirection = Directions.E;
+                    rotateRightDirection = Directions.W;
+                    break;
+                case N:
+                    rotateLeftDirection = Directions.W;
+                    rotateRightDirection = Directions.E;
+                    break;
+                default:
+                    rotateLeftDirection = Directions.UNDEFINED;
+                    rotateRightDirection = Directions.UNDEFINED;
+                    break;
+            }
+            
+            Assertions.assertEquals(rotateLeftDirection,
+                    Directions.rotate(direction, true));
+            Assertions.assertEquals(rotateRightDirection,
+                    Directions.rotate(direction, false));
+        }
+    }
 }
