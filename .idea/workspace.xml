@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7084890c-cb90-4f39-a40a-ced8290291c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/CommandParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/CommandParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/CommandParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/CommandParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/CommandParserTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,8 +88,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Utils/CommandParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utils/CommandParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +123,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -128,6 +141,7 @@
         <option value="$PROJECT_DIR$/src/test/java/PositionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rover.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utils/CommandParserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/CommandParser.java" />
       </list>
     </option>
@@ -180,6 +194,14 @@
               <item name="PlutoRover" type="b2602c69:ProjectViewProjectNode" />
               <item name="PlutoRover" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlutoRover" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlutoRover" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -197,6 +219,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Enums" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PlutoRover" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlutoRover" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -206,7 +236,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573839838486" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573840124370" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -215,6 +245,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Utils" />
       <recent name="" />
       <recent name="Enums" />
     </key>
@@ -234,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CommandParserTest.hasNext">
+  <component name="RunManager" selected="JUnit.CommandParserTest.next">
     <configuration name="CommandParserTest.hasNext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PlutoRover" />
       <extension name="coverage">
@@ -251,21 +282,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoverTest.moveBackwardsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommandParserTest.next" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PlutoRover" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoverTest" />
-      <option name="METHOD_NAME" value="moveBackwardsTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Utils" />
+      <option name="MAIN_CLASS_NAME" value="Utils.CommandParserTest" />
+      <option name="METHOD_NAME" value="next" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoverTest.moveForwardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoverTest.moveBackwardsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PlutoRover" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RoverTest" />
-      <option name="METHOD_NAME" value="moveForwardTest" />
+      <option name="METHOD_NAME" value="moveBackwardsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -293,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommandParserTest.next" />
         <item itemvalue="JUnit.CommandParserTest.hasNext" />
         <item itemvalue="JUnit.RoverTest.moveRightTest" />
         <item itemvalue="JUnit.RoverTest.moveLeftTest" />
         <item itemvalue="JUnit.RoverTest.moveBackwardsTest" />
-        <item itemvalue="JUnit.RoverTest.moveForwardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -315,15 +352,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PositionTest_normalizePositionWhenPositionIsNegative - 2019.11.15 at 19h 19m 44s.xml">
-      <configuration name="PositionTest.normalizePositionWhenPositionIsNegative" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PositionTest_forwardPosition - 2019.11.15 at 19h 29m 09s.xml">
-      <configuration name="PositionTest.forwardPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoverTest_moveForwardTest - 2019.11.15 at 19h 35m 34s.xml">
-      <configuration name="RoverTest.moveForwardTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RoverTest_moveBackwardsTest - 2019.11.15 at 19h 36m 49s.xml">
       <configuration name="RoverTest.moveBackwardsTest" configurationId="JUnit" />
     </history-entry>
@@ -345,12 +373,21 @@
     <history-entry file="RoverTest_moveRightTest - 2019.11.15 at 19h 38m 39s.xml">
       <configuration name="RoverTest.moveRightTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CommandParserTest_hasNext - 2019.11.15 at 19h 44m 04s.xml">
+      <configuration name="CommandParserTest.hasNext" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandParserTest_next - 2019.11.15 at 19h 47m 00s.xml">
+      <configuration name="CommandParserTest.next" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandParserTest_next - 2019.11.15 at 19h 48m 00s.xml">
+      <configuration name="CommandParserTest.next" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2549234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2549234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -360,7 +397,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32932165" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32932165" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -452,10 +489,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utils/CommandParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utils/CommandParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>

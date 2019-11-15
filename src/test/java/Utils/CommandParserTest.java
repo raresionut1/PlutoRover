@@ -1,5 +1,6 @@
 package Utils;
 
+import Enums.Commands;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -13,5 +14,18 @@ class CommandParserTest {
 
         CommandParser cp2 = new CommandParser("");
         Assertions.assertEquals(false, cp2.hasNext());
+    }
+
+    @Test
+    public void next() {
+        CommandParser cp = new CommandParser("FBLRXF");
+        Assertions.assertEquals(Commands.F, cp.next());
+        Assertions.assertEquals(Commands.B, cp.next());
+        Assertions.assertEquals(Commands.L, cp.next());
+        Assertions.assertEquals(Commands.R, cp.next());
+        Assertions.assertEquals(Commands.UNDEFINED, cp.next());
+        Assertions.assertEquals(Commands.F, cp.next());
+        Assertions.assertEquals(Commands.UNDEFINED, cp.next());
+        Assertions.assertEquals(Commands.UNDEFINED, cp.next());
     }
 }
