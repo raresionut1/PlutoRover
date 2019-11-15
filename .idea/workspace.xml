@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7084890c-cb90-4f39-a40a-ced8290291c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Rover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RoverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/CommandParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -86,10 +85,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utils/CommandParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="400">
+              <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,8 +110,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -120,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/test/java/PositionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rover.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/CommandParser.java" />
       </list>
     </option>
   </component>
@@ -197,7 +206,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573839516791" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573839838486" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -225,12 +234,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RoverTest.moveRightTest">
-    <configuration name="PositionTest.forwardPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CommandParserTest.hasNext">
+    <configuration name="CommandParserTest.hasNext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PlutoRover" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PositionTest" />
-      <option name="METHOD_NAME" value="forwardPosition" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Utils" />
+      <option name="MAIN_CLASS_NAME" value="Utils.CommandParserTest" />
+      <option name="METHOD_NAME" value="hasNext" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -278,11 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommandParserTest.hasNext" />
         <item itemvalue="JUnit.RoverTest.moveRightTest" />
         <item itemvalue="JUnit.RoverTest.moveLeftTest" />
         <item itemvalue="JUnit.RoverTest.moveBackwardsTest" />
         <item itemvalue="JUnit.RoverTest.moveForwardTest" />
-        <item itemvalue="JUnit.PositionTest.forwardPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -300,35 +315,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PositionTest_normalizePositionWhenPositionIsBiggerThanLimits - 2019.11.15 at 19h 15m 49s.xml">
-      <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PositionTest_normalizePositionWhenPositionIsBiggerThanLimits - 2019.11.15 at 19h 16m 04s.xml">
-      <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PositionTest_normalizePositionWhenPositionIsBiggerThanLimits - 2019.11.15 at 19h 16m 20s.xml">
-      <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PositionTest_normalizePositionWhenPositionIsBiggerThanLimits - 2019.11.15 at 19h 16m 30s.xml">
-      <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PositionTest_normalizePositionWhenPositionIsBiggerThanLimits - 2019.11.15 at 19h 16m 44s.xml">
-      <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PositionTest_normalizePositionWhenPositionIsBiggerThanLimits - 2019.11.15 at 19h 17m 33s.xml">
-      <configuration name="PositionTest.normalizePositionWhenPositionIsBiggerThanLimits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PositionTest_normalizePositionWhenPositionIsNegative - 2019.11.15 at 19h 17m 39s.xml">
-      <configuration name="PositionTest.normalizePositionWhenPositionIsNegative" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PositionTest_normalizePositionWhenPositionIsNegative - 2019.11.15 at 19h 18m 38s.xml">
-      <configuration name="PositionTest.normalizePositionWhenPositionIsNegative" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PositionTest_normalizePositionWhenPositionIsNegative - 2019.11.15 at 19h 19m 44s.xml">
       <configuration name="PositionTest.normalizePositionWhenPositionIsNegative" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PositionTest_forwardPosition - 2019.11.15 at 19h 29m 09s.xml">
       <configuration name="PositionTest.forwardPosition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_moveForwardTest - 2019.11.15 at 19h 35m 34s.xml">
+      <configuration name="RoverTest.moveForwardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_moveBackwardsTest - 2019.11.15 at 19h 36m 49s.xml">
+      <configuration name="RoverTest.moveBackwardsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_moveBackwardsTest - 2019.11.15 at 19h 37m 09s.xml">
+      <configuration name="RoverTest.moveBackwardsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_moveBackwardsTest - 2019.11.15 at 19h 37m 22s.xml">
+      <configuration name="RoverTest.moveBackwardsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_moveBackwardsTest - 2019.11.15 at 19h 37m 35s.xml">
+      <configuration name="RoverTest.moveBackwardsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_moveRightTest - 2019.11.15 at 19h 38m 17s.xml">
+      <configuration name="RoverTest.moveRightTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_moveLeftTest - 2019.11.15 at 19h 38m 22s.xml">
+      <configuration name="RoverTest.moveLeftTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest_moveRightTest - 2019.11.15 at 19h 38m 39s.xml">
+      <configuration name="RoverTest.moveRightTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -410,6 +425,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -420,13 +452,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RoverTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/CommandParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
