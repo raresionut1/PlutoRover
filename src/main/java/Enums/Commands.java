@@ -1,4 +1,5 @@
 package Enums;
 
-public class Commands {
+public enum Commands {
+    F, B, L, R, UNDEFINED;
 }

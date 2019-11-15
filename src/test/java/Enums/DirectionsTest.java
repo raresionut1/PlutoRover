@@ -58,7 +58,7 @@ class DirectionsTest {
                     rotateRightDirection = Directions.UNDEFINED;
                     break;
             }
-            
+
             Assertions.assertEquals(rotateLeftDirection,
                     Directions.rotate(direction, true));
             Assertions.assertEquals(rotateRightDirection,
